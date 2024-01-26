@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Creating an instance of the class to invoke the non-static method
-Car car1 = new Car();
+Car car1 = new Car(200);
 car1.accelerate();
 car1.slow();
 
