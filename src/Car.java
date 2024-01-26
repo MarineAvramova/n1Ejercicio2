@@ -25,7 +25,7 @@ Demonstrate how to invoke static and non-static method from main() of main class
         model = "GTR";
     }
     public Car(final int power) {
-     this.power = 200; //final variables must be initialized in the constructor
+     this.power = power; //final variables must be initialized in the constructor
     }
 
      static void slow() {
